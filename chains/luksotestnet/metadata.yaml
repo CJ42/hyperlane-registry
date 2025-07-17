@@ -1,6 +1,7 @@
 # yaml-language-server: $schema=../schema.json
 blockExplorers:
-  - apiUrl: https://api.explorer.execution.testnet.lukso.network/api
+  - apiKey: no-api-key-needed
+    apiUrl: https://api.explorer.execution.testnet.lukso.network/api
     family: blockscout
     name: LUKSO Testnet Explorer
     url: https://explorer.execution.testnet.lukso.network
@@ -9,8 +10,12 @@ blocks:
   estimateBlockTime: 12
   reorgPeriod: 14
 chainId: 4201
+deployer:
+  name: LUKSO Team
+  url: https://www.lukso.network
 displayName: LUKSO Testnet
 domainId: 4201
+gasCurrencyCoinGeckoId: lukso-token-2
 isTestnet: true
 name: luksotestnet
 nativeToken:
