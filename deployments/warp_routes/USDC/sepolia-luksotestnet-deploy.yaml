@@ -1,0 +1,26 @@
+luksotestnet:
+  mailbox: "0x8312d74f7ab4100937158b772280278e79237a8a"
+  interchainSecurityModule:
+    type: testIsm
+  isNft: false
+  owner: "0x3414486376A5eE5CC2062d059920409EE81E52CD"
+  proxyAdmin:
+    address: "0x6a3Db9Bea74E11D24b8C73624C30Bd4002593153"
+    owner: "0x03492D5fF5e86cc06b4a40F8c0A0F72B730f50b9"
+  type: synthetic
+  name: Bridged USDC (test-1)
+  symbol: USDCt
+  decimals: 6
+sepolia:
+  interchainSecurityModule:
+    type: testIsm
+  owner: "0x3414486376A5eE5CC2062d059920409EE81E52CD"
+  hook: "0x34641c5e43c702af2f0b85257b2ed1dbc6591b97"
+  proxyAdmin:
+    address: "0x97Bbc6bBaFa5Ce3b2FA966c121Af63bD09e940f8"
+    owner: "0xfaD1C94469700833717Fa8a3017278BC1cA8031C"
+  token: "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238"
+  type: collateral
+  decimals: 6
+  destinationGas:
+    4201: "68000"
